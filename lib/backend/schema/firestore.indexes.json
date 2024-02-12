@@ -1,0 +1,36 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "packages",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "vendor_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "ordered_time",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "packages",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "vendor_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "ordered_time",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
