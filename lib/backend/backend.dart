@@ -457,16 +457,19 @@ Stream<List<T>> queryCollection<T>(
   }
   return query.snapshots().handleError((err) {
     print('Error querying $collection: $err');
-  }).map((s) => s.docs
-      .map(
-        (d) => safeGet(
-          () => recordBuilder(d),
-          (e) => print('Error serializing doc ${d.reference.path}:\n$e'),
-        ),
-      )
-      .where((d) => d != null)
-      .map((d) => d!)
-      .toList());
+  }).map((s) {
+    print(s.docs.length);
+    return s.docs
+        .map(
+          (d) => safeGet(
+            () => recordBuilder(d),
+            (e) => print('Error serializing doc ${d.reference.path}:\n$e'),
+          ),
+        )
+        .where((d) => d != null)
+        .map((d) => d!)
+        .toList();
+  });
 }
 
 Future<List<T>> queryCollectionOnce<T>(

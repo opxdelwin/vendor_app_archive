@@ -25,7 +25,7 @@ class RunReportCall {
 }''';
     return ApiManager.instance.makeApiCall(
       callName: 'runReport',
-      apiUrl: 'https://us-central1-eyal-9b5f3.cloudfunctions.net/app/runReport',
+      apiUrl: '${ApiManager.baseUrl}/runReport',
       callType: ApiCallType.POST,
       headers: {},
       params: {},

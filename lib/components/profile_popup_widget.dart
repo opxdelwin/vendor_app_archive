@@ -91,7 +91,7 @@ class _ProfilePopupWidgetState extends State<ProfilePopupWidget> {
             List<VendorsRecord> columnVendorsRecordList = snapshot.data!;
             // Return an empty Container when the item does not exist.
             if (snapshot.data!.isEmpty) {
-              return Container();
+              return Container(child: Text("No data found"));
             }
             final columnVendorsRecord = columnVendorsRecordList.isNotEmpty
                 ? columnVendorsRecordList.first

@@ -1,228 +1,45 @@
 {
   "project_info": {
-    "project_number": "112891698324",
-    "firebase_url": "https://mysanji-d2c2f-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "project_id": "mysanji-d2c2f",
-    "storage_bucket": "mysanji-d2c2f.appspot.com"
+    "project_number": "315868793223",
+    "project_id": "mysanji-dev",
+    "storage_bucket": "mysanji-dev.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:112891698324:android:3cbb3d49f29f2ccbf26881",
+        "mobilesdk_app_id": "1:315868793223:android:cccf60f3e36207efcb2b22",
         "android_client_info": {
           "package_name": "com.debbo.mysanjiVA"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "112891698324-umrc945mqjvrtdn326ebm6koq9q90jve.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.debbo.mysanjiVA",
-            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
-          }
-        },
-        {
-          "client_id": "112891698324-rttd4osmgj071mr5u12gjch402k1jdlr.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyApyqzXeZQL7lHre27O-PQ-Vl8Mn8UrJlc"
+          "current_key": "AIzaSyAEpl5GWaGil_lzZBlkOavisNTP86UAS1s"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "112891698324-rttd4osmgj071mr5u12gjch402k1jdlr.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "112891698324-19buqcjfje9ko6v5gkbohoe0bubvqls7.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.mycompany.mysanjideliveryapp"
-              }
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:112891698324:android:a1d12dfc498bfbc3f26881",
+        "mobilesdk_app_id": "1:315868793223:android:8958ff80243b0d97cb2b22",
         "android_client_info": {
           "package_name": "com.debbo.mysanjibm"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "112891698324-vmc0nbe74va8dha3k5uica6pn04scprr.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.debbo.mysanjibm",
-            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
-          }
-        },
-        {
-          "client_id": "112891698324-rttd4osmgj071mr5u12gjch402k1jdlr.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyApyqzXeZQL7lHre27O-PQ-Vl8Mn8UrJlc"
+          "current_key": "AIzaSyAEpl5GWaGil_lzZBlkOavisNTP86UAS1s"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "112891698324-rttd4osmgj071mr5u12gjch402k1jdlr.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "112891698324-19buqcjfje9ko6v5gkbohoe0bubvqls7.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.mycompany.mysanjideliveryapp"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:112891698324:android:ab7c02d83fbc3cdbf26881",
-        "android_client_info": {
-          "package_name": "com.mycompany.mysanjibranchmanager"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "112891698324-6t5nrmgg4987rio6t5d3j0mluitc5fse.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.mycompany.mysanjibranchmanager",
-            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
-          }
-        },
-        {
-          "client_id": "112891698324-rttd4osmgj071mr5u12gjch402k1jdlr.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyApyqzXeZQL7lHre27O-PQ-Vl8Mn8UrJlc"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "112891698324-rttd4osmgj071mr5u12gjch402k1jdlr.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "112891698324-19buqcjfje9ko6v5gkbohoe0bubvqls7.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.mycompany.mysanjideliveryapp"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:112891698324:android:414ef92e40a895bff26881",
-        "android_client_info": {
-          "package_name": "com.mycompany.mysanjideliveryapp"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "112891698324-00lp23krellicmhmd3o1rtv2reaf0ejl.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.mycompany.mysanjideliveryapp",
-            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
-          }
-        },
-        {
-          "client_id": "112891698324-rttd4osmgj071mr5u12gjch402k1jdlr.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyApyqzXeZQL7lHre27O-PQ-Vl8Mn8UrJlc"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "112891698324-rttd4osmgj071mr5u12gjch402k1jdlr.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "112891698324-19buqcjfje9ko6v5gkbohoe0bubvqls7.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.mycompany.mysanjideliveryapp"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:112891698324:android:ec057c8fce1a336af26881",
-        "android_client_info": {
-          "package_name": "com.mycompany.mysanjivendorapp"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "112891698324-19tpahnp2bs0htf8vbrarbsi0b24rl3s.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.mycompany.mysanjivendorapp",
-            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
-          }
-        },
-        {
-          "client_id": "112891698324-rttd4osmgj071mr5u12gjch402k1jdlr.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyApyqzXeZQL7lHre27O-PQ-Vl8Mn8UrJlc"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "112891698324-rttd4osmgj071mr5u12gjch402k1jdlr.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "112891698324-19buqcjfje9ko6v5gkbohoe0bubvqls7.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.mycompany.mysanjideliveryapp"
-              }
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

@@ -99,6 +99,10 @@ class ApiManager {
   static ApiManager? _instance;
   static ApiManager get instance => _instance ??= ApiManager._();
 
+  /// base endpoint to call FirebaseCloudFunctions
+  static String baseUrl =
+      'https://us-central1-eyal-9b5f3.cloudfunctions.net/app';
+
   // If your API calls need authentication, populate this field once
   // the user has authenticated. Alter this as needed.
   static String? _accessToken;

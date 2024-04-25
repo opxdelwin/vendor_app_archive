@@ -1,7 +1,8 @@
+import 'package:mysanji_vendor_app/backend/api_requests/api_manager.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -18,6 +19,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   usePathUrlStrategy();
   await initFirebase();
+  useEmulators();
 
   final appState = FFAppState(); // Initialize FFAppState
   await appState.initializePersistedState();
@@ -26,6 +28,16 @@ void main() async {
     create: (context) => appState,
     child: MyApp(),
   ));
+}
+
+/// Used to mock local development enviromnent
+void useEmulators() {
+  print("Using emulators");
+  const String host = '10.0.2.2'; //AVD localhost IP
+
+  ApiManager.baseUrl = 'http://$host:5001/mysanji-dev/us-central1/app';
+  FirebaseFirestore.instance.useFirestoreEmulator(host, 8080);
+  FirebaseAuth.instance.useAuthEmulator(host, 9099);
 }
 
 class MyApp extends StatefulWidget {
